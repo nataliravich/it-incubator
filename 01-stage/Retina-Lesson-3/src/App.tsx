@@ -17,11 +17,11 @@ function App() {
 			{/*<div className={'bg'}></div>*/}
 			{/*<img src={cat} srcSet={`${cat2x} 2x, ${cat3x} 3x`} alt="cat" />*/}
 
+
 			<picture>
 				<source srcSet={`${proj2} 2x, ${proj1} 1x`} />
 				<img src={proj3} srcSet={`${proj4} 2x`} alt="proj" />
 			</picture>
-
 
 		</div>
 	);
